@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: #f1d2d2ea;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    height: 75px;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px ;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold ;
+    font-size: 1.3rem;
+}
+
+.songitemcontainer{
+    margin-top: 75px;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('zorobkg.jpg');
+}
+
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitem{
+    display: flex;
+    height: 50px;
+    background-color: white;
+    /* width: 90%; */
+    margin:15px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songitem img{
+    width: 110px;
+    margin: 0 10px;
+    border-radius: 34px;
+} 
+
+.timestamp i {
+    margin: 0 35px;
+    cursor: pointer;
+}
+
+.songinfo{
+    /* width: 74px; */
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+    /* background-color: white; */
+    
+}
+.songinfo img {
+    width: 74px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
